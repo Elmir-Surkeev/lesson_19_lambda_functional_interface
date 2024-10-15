@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd94be7c-fb84-4e36-98ce-f5df1a02ff8e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/kg/alfit/task1/Action.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/homework-19/kg/alfit/task1/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/homework-19/kg/alfit/task1/Cat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/homework-19/kg/alfit/task1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/homework-19/kg/alfit/task1/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kg/alfit/task1/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kg/alfit/task1/Cat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kg/alfit/task1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kg/alfit/task1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kg/alfit/task2/ActiveCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kg/alfit/task2/ActiveCat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kg/alfit/task2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kg/alfit/task2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +40,10 @@
 }]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/kg/alfit/task1/Main.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+    <option name="showPreview" value="true" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 8
@@ -142,7 +145,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728980537182</updated>
-      <workItem from="1728980538287" duration="4937000" />
+      <workItem from="1728980538287" duration="10003000" />
     </task>
     <servers />
   </component>

@@ -61,8 +61,21 @@ final class Cat {
 //
     // Ваш код может находится здесь
     // остальную часть этого файла вы менять не можете
+
+
     public int byBreed(Cat a, Cat b){
-        return a.getName().toUpperCase().compareTo(b.getName().toUpperCase());
+        return a.breed.toString().toUpperCase().compareTo(b.breed.toString().toUpperCase());
+    }
+    public int byName(Cat a, Cat b){
+        return a.name.compareTo(b.name);
+    }
+    public int byAge(Cat a, Cat b){
+        return Integer.compare(a.age, b.age);
+    }
+
+    @Override
+    public String toString() {
+        return String.format("Name: %s | Age: %d | Breed: %s | Color: %s", name, age, breed, color);
     }
 
     /*********/
