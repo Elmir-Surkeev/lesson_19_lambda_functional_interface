@@ -1,4 +1,4 @@
-package task1;
+package kg.alfit.task1;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package task1;
+package kg.alfit.task1;
 
 public class Main {
     public static void main(String[] args) {
@@ -8,6 +8,6 @@ public class Main {
         // А сюда добавьте код, который будет сортировать коллекцию котов
         // используйте лямбда-выражения и ссылки на методы
         //cats.sort(?);
-        //task1.Printer.print(cats);
+        //kg.alfit.task1.Printer.print(cats);
     }
 }
