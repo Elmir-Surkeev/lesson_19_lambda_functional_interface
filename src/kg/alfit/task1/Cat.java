@@ -2,6 +2,7 @@ package kg.alfit.task1;
 
 import java.util.List;
 import java.util.Random;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 // код можно менять только в особо отмеченном месте этого файла,
@@ -27,7 +28,8 @@ final class Cat {
     public static List<Cat> makeCats(int amount) {
         return Stream.generate(Cat::new)
                 .limit(amount)
-                .toList();
+                .collect(Collectors.toList());
+                //.toList();
     }
 
     public Color getColor() {
@@ -46,6 +48,7 @@ final class Cat {
         return breed;
     }
 
+
     enum Color {
         TABBY, SILVER, GRAY, PEACH, GINGER, TORTIE
     }
@@ -55,9 +58,12 @@ final class Cat {
     }
 
     /*********/
-
+//
     // Ваш код может находится здесь
     // остальную часть этого файла вы менять не можете
+    public int byBreed(Cat a, Cat b){
+        return a.getName().toUpperCase().compareTo(b.getName().toUpperCase());
+    }
 
     /*********/
 }

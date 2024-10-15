@@ -1,5 +1,7 @@
 package kg.alfit.task2;
 
+import kg.alfit.task1.Action;
+
 import java.util.List;
 import java.util.Random;
 
@@ -14,9 +16,9 @@ public final class ActiveCat {
     private static final List<String> names = List.of("Peach", "Ginger", "Toby", "Seth", "Tibbles", "Tabby", "Poppy", "Millie", "Daisy", "Jasper", "Misty", "Minka");
     private final String name;
 
-    private ??? action;
+    private Action action;
 
-    public ActiveCat(??? action) {
+    public ActiveCat(Action action) {
         name = names.get(r.nextInt(names.size()));
         this.action = action;
     }
@@ -26,7 +28,7 @@ public final class ActiveCat {
     }
 
     public void doAction() {
-        System.out.printf("Я %s. %s%n", name, action.perform());
+       // System.out.printf("Я %s. %s%n", name, action.perform());
     }
 
     /*****/

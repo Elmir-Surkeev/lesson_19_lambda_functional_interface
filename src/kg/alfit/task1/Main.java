@@ -1,5 +1,9 @@
 package kg.alfit.task1;
 
+import kg.alfit.task1.Cat.Breed;
+
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         var cats = Cat.makeCats(10);
@@ -7,7 +11,8 @@ public class Main {
 
         // А сюда добавьте код, который будет сортировать коллекцию котов
         // используйте лямбда-выражения и ссылки на методы
-        //cats.sort(?);
+        cats.sort((a, b)-> a.byBreed(a, b));
+
         //kg.alfit.task1.Printer.print(cats);
     }
 }
