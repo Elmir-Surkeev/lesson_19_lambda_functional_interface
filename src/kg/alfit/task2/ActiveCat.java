@@ -1,9 +1,11 @@
 package kg.alfit.task2;
 
-import kg.alfit.task1.Action;
+import kg.alfit.task1.Cat;
 
 import java.util.List;
 import java.util.Random;
+import java.util.Stack;
+import java.util.function.Supplier;
 
 // код можно менять только в особо отмеченных местах этого файла.
 // то есть там, где написаны три знака вопроса "???"
@@ -16,10 +18,10 @@ public final class ActiveCat {
     private static final List<String> names = List.of("Peach", "Ginger", "Toby", "Seth", "Tibbles", "Tabby", "Poppy", "Millie", "Daisy", "Jasper", "Misty", "Minka");
     private final String name;
 
-    private Action action;
+    private final Action action;
 
     public ActiveCat(Action action) {
-        name = names.get(r.nextInt(names.size()));
+        this.name = names.get(r.nextInt(names.size()));
         this.action = action;
     }
 
@@ -28,7 +30,7 @@ public final class ActiveCat {
     }
 
     public void doAction() {
-       // System.out.printf("Я %s. %s%n", name, action.perform());
+         System.out.printf("Я %s. %s%n", name, action.perform());
     }
 
     /*****/
@@ -44,6 +46,17 @@ public final class ActiveCat {
     public static String eat() {
         return "Я кушаю!";
     }
+
+    public static String run() {
+        return "Я бегу";
+    }
+
+    public static String drinkMilk() {
+        return "Я пью молоко";
+    }
+
+
+
     /*****/
 }
 

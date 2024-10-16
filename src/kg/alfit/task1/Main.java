@@ -8,7 +8,7 @@ import java.util.Comparator;
 
 public class Main {
     public static void main(String[] args) {
-        var cats = Cat.makeCats(10);
+        //var cats = Cat.makeCats(10);
         //Printer.print(cats);
 
         // А сюда добавьте код, который будет сортировать коллекцию котов

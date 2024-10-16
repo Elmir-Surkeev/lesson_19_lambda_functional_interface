@@ -2,6 +2,7 @@ package kg.alfit.task2;
 
 import java.util.ArrayList;
 
+
 public class Main {
     public static void main(String[] args) {
         // исправьте код так, что бы на экран выводилось что-то вроде.
@@ -11,12 +12,13 @@ public class Main {
         // для решения примените лямбда-выражения,
 
         // каждый кот должен уметь выполнять что-то своё
-//        var cats = new ArrayList<>();
-//        cats.add(new ActiveCat(???));
-//        cats.add(new ActiveCat(???));
-//        cats.add(new ActiveCat(???));
-        // добавьте ещё два-три кота, с совершенно другими действиями
+        var cats = new ArrayList<ActiveCat>();
+        cats.add(new ActiveCat(() -> ActiveCat.jump()));
+        cats.add(new ActiveCat(() -> ActiveCat.eat()));
+        cats.add(new ActiveCat(() -> ActiveCat.sleep()));
+        cats.add(new ActiveCat(() -> ActiveCat.run()));
+        cats.add(new ActiveCat(() -> ActiveCat.drinkMilk()));
 
-     //   cats.forEach(ActiveCat::doAction);
+        cats.forEach(ActiveCat::doAction);
     }
 }
