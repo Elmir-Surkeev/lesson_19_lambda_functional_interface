@@ -1,11 +1,5 @@
 package kg.alfit.task1;
 
-import kg.alfit.task1.Cat.Breed;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-
 import static java.lang.System.out;
 
 public class Main {
@@ -19,7 +13,6 @@ public class Main {
         out.println("Сортировка по породе");
         cats.sort((a, b)-> a.byBreed(a, b));
         Printer.print(cats);
-
         //Сортировка по имени, реализовано
         out.println("Сортировка по имени");
         cats.sort((a, b) -> b.byName(a, b));
